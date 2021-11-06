@@ -1,6 +1,20 @@
+body{
+    font-family: 'Cairo';
+}
+
 .navbar-first{
-    background-color: #404D5E !important;
+    background-color: #404D5E;
     margin-bottom: 0;
     border: none;
     border-radius: 0
+}
+.navbar-first .navbar-nav>li>a{
+    color: #e4e6f7;
+    font-size: 12pt;
+    font-weight: normal;
+    padding: 10px;
+    text-decoration: none !important;
+} 
+.navbar-light .navbar-brand {
+    color: rgb(253 253 253 / 90%) !important;
 }
