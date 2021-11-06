@@ -1,7 +1,7 @@
+@import "../fonts/arabic-font.css";
 body{
-    font-family: 'Cairo';
+    background-color: #F9F9F9;
 }
-
 .navbar-first{
     background-color: #404D5E;
     margin-bottom: 0;
@@ -9,12 +9,18 @@ body{
     border-radius: 0
 }
 .navbar-first .navbar-nav>li>a{
-    color: #e4e6f7;
+    color: #d4d7f3;
     font-size: 12pt;
     font-weight: normal;
     padding: 10px;
     text-decoration: none !important;
 } 
+.navbar-first .navbar-nav>li.active a{
+    color:white;
+}
+.navbar-first .navbar-nav>li>a:hover{
+    color:white;
+}
 .navbar-light .navbar-brand {
     color: rgb(253 253 253 / 90%) !important;
 }
