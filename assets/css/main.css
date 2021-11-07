@@ -9,7 +9,7 @@ body{
 }
 
 .navbar-first{
-    background-color: #404D5E;
+    background-color: #167579;
     margin-bottom: 0;
     border: none;
     border-radius: 0
@@ -59,7 +59,6 @@ body{
     margin-right: 5px;
     margin-left: 5px;
 }
-.badge-circle-light-secondary {
-    background-color: #E6EAEE;
-    color: #404D5E;
+.table-icon a:hover i {
+    background-color: #6d9ac9;
 }

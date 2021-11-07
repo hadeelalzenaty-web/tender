@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <title>عطاءات</title>
      <!-- Bootstrap -->
-     <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+     <link href="../assets/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet">
      <link href="../assets/bootstrap/css/bootstrap.grid.rtl.css" rel="stylesheet">
      <link href="../assets/bootstrap/css/bootstrap-utilities.rtl.css" rel="stylesheet">
          <!-- Main -->
@@ -75,9 +75,9 @@
                                 <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""><i
-                                                class="badge-circle badge-circle-light-secondary fas fa-pen font-medium-1"></i></a>
-                                        <a href="#"><i
-                                                class="badge-circle badge-circle-light-secondary fas fa-times font-medium-1"></i></a>
+                                                class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
+                                        <a href="" data-bs-toggle="modal" data-bs-target="#Modal2"><i
+                                                class="badge-circle badge-circle-light-secondary fas fa-times"></i></a>
                                     </div>
                                 </td>
                             </tr>
@@ -512,19 +512,33 @@
     </div>
 </div>
 <!--Models-->
-<div class="modal" role="dialog" id="Modal1">
-    <div class="modal-dialog" role="document">
+
+<div class="modal" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body text-center">
-          <h3>هل أنت متأكد من حذف الإدارة</h3>
-        </div>
-        <div class="text-center">
-                <button class="btn  btn-st1 mt-3 mb-5" data-dismiss="modal">
-                        إلغاء</button>
-                <button class="btn  btn-st2 mt-3 mb-5" data-dismiss="modal" data-toggle="modal" data-target="#Modal2">
-                    نعم</button>
-            </div>
+            <h3>هل أنت متأكد من حذف الجهة</h3>
+          </div>
+          <div class="text-center">
+            <button type="button" class="btn btn-primary mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#Modal3">نعم</button>
+            <button type="button" class="btn btn-secondary mt-3 mb-5" data-bs-dismiss="modal">إلغاء</button>
+              </div>
       </div>
     </div>
   </div>
+  <div class="modal" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+            <h3>تم حذف الجهة بنجاح</h3>
+          </div>
+          <div class="text-center">
+            <button type="button" class="btn btn-primary mt-3 mb-5" data-bs-dismiss="modal">موافق</button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Bootstrap Core JavaScript -->
+   <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+   <script src="../assets/bootstrap/js/bootstrap.js"></script>
 </body>

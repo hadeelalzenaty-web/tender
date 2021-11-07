@@ -2,7 +2,7 @@ html body {
     direction: rtl !important;
     font-family : 'Tajawal','IBM Plex Sans', Helvetica, Arial, serif; 
   }
-  
+
   .page-link {
     position: relative;
     display: block;
@@ -47,7 +47,7 @@ html body {
   -ms-flex-pack : center;
           justify-content : center;
   color : #FFFFFF;
-  background-color : #0D6EFD;
+  background-color : #5A8DEE;
   border-radius : 50%;
   height : 36px;
   width : 36px;
