@@ -38,7 +38,7 @@ body{
     padding: 1.5rem;
     box-shadow: 8px 12px 18px 0 rgb(25 42 70 / 13%);
     border: 0 solid #DFE3E7;
-    margin-bottom: 2.2rem;
+    margin-bottom: 2rem;
 }
 .filter-row .project-search::after {
     position: absolute;
@@ -55,17 +55,11 @@ body{
 .pagination .page-item.next {
     margin-right: 0.3571rem;
 }
-
-.pagination .page-item .page-link {
-    border: 1px solid #DFE3E7;
-    border-right: 0;
-    border-left: 0;
-    color: #324356;
-    background-color: transparent;
-    font-weight: 600;
+.table-icon a {
+    margin-right: 5px;
+    margin-left: 5px;
 }
-.pagination .page-item.active .page-link, .pagination .page-item.active .page-link{
-    border-radius: 0.267rem;
-    background-color: #5A8DEE !important;
-    color: #FFFFFF;
+.badge-circle-light-secondary {
+    background-color: #E6EAEE;
+    color: #404D5E;
 }

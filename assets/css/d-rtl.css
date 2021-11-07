@@ -2,6 +2,7 @@ html body {
     direction: rtl !important;
     font-family : 'Tajawal','IBM Plex Sans', Helvetica, Arial, serif; 
   }
+  
   .page-link {
     position: relative;
     display: block;
@@ -31,4 +32,23 @@ html body {
   border-radius: 0.267rem;
   background-color: #5A8DEE !important;
   color: #FFFFFF;
+}
+.badge-circle {
+  display : -webkit-box;
+  display : -webkit-flex;
+  display : -ms-flexbox;
+  display :         flex;
+  -webkit-box-align : center;
+  -webkit-align-items : center;
+  -ms-flex-align : center;
+          align-items : center;
+  -webkit-box-pack : center;
+  -webkit-justify-content : center;
+  -ms-flex-pack : center;
+          justify-content : center;
+  color : #FFFFFF;
+  background-color : #0D6EFD;
+  border-radius : 50%;
+  height : 36px;
+  width : 36px;
 }
