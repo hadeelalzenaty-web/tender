@@ -2,4 +2,33 @@ html body {
     direction: rtl !important;
     font-family : 'Tajawal','IBM Plex Sans', Helvetica, Arial, serif; 
   }
-  
+  .page-link {
+    position: relative;
+    display: block;
+    padding: 0.40rem 0.65rem;
+    margin-right: 0;
+    line-height: 1.25;
+  }
+  .pagination .page-item.previous .page-link {
+    border: 1px solid #DFE3E7 !important;
+    border-radius: 0.267rem !important;
+}
+.pagination .page-item.next  .page-link,.pagination .page-item:nth-last-child(-n+2) .page-link {
+  border-left: 1px solid #DFE3E7 !important;
+  border-radius: 0.267rem !important;
+  border-bottom-left-radius: 0.267rem;
+
+}
+.pagination .page-item .page-link {
+  border: 1px solid #DFE3E7;
+  border-right: 0;
+  border-left: 0;
+  color: #324356;
+  background-color: transparent;
+  font-weight: 600;
+}
+.pagination .page-item.active .page-link{
+  border-radius: 0.267rem;
+  background-color: #5A8DEE !important;
+  color: #FFFFFF;
+}

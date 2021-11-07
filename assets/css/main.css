@@ -3,6 +3,11 @@
 body{
     background-color: #F9F9F9;
 }
+.content{
+    padding: 1rem  1rem 0;
+    margin-top: 0.5rem;
+}
+
 .navbar-first{
     background-color: #404D5E;
     margin-bottom: 0;
@@ -29,6 +34,12 @@ body{
 .site-color{
    color: #404D5E;
 }
+.card{
+    padding: 1.5rem;
+    box-shadow: 8px 12px 18px 0 rgb(25 42 70 / 13%);
+    border: 0 solid #DFE3E7;
+    margin-bottom: 2.2rem;
+}
 .filter-row .project-search::after {
     position: absolute;
     content: '\f002';
@@ -37,7 +48,24 @@ body{
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
-.content{
-    padding: 1rem  1rem 0;
-    margin-top: 0.5rem;
+
+.pagination .page-item.previous {
+    margin-left: 0.3571rem;
+}
+.pagination .page-item.next {
+    margin-right: 0.3571rem;
+}
+
+.pagination .page-item .page-link {
+    border: 1px solid #DFE3E7;
+    border-right: 0;
+    border-left: 0;
+    color: #324356;
+    background-color: transparent;
+    font-weight: 600;
+}
+.pagination .page-item.active .page-link, .pagination .page-item.active .page-link{
+    border-radius: 0.267rem;
+    background-color: #5A8DEE !important;
+    color: #FFFFFF;
 }
