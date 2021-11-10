@@ -67,8 +67,12 @@ body{
     margin-left: 5px;
 }
 .table-icon a:hover i {
-    background-color: #6d9ac9;
+   background-color: #4974a1 !important;
 }
+.table-icon a:hover {
+    text-decoration: none !important;
+}
+
 .filter-box{
     background: #fff;
     border-radius: 8px;
@@ -104,6 +108,51 @@ body{
 }
 
 
-.table-icon a{
-    color: #5A8DEE !important;
+.table-icon a:not(:hover){
+    color: #5A8DEE!important;
 }
+
+
+
+.btn:focus { outline: none !important;
+box-shadow: none !important; }
+.red-color{
+    color:red;
+}
+.btn-st1{
+	color: #fff;
+    background-color: #248824;
+    border-color: #248824;
+}
+  
+  .btn-st1:hover {
+    color: #fff;
+    background-color: #1f6e1f;
+    border-color: #1f6e1f;
+  }
+  
+  .btn-st1:focus{
+    box-shadow: 0 0 0 0.2rem rgba(33, 104, 1, 0.596);
+	  color:white;
+  }
+
+  .btn-st1.disabled, .btn-st1:disabled {
+    color: #fff;
+    background-color: #248824;
+    border-color: #248824;
+  }
+  .btn-st1:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(33, 104, 1, 0.596);
+  }
+
+ .btn-st1:focus, .btn-st1.focus {
+    box-shadow: 0 0 0 0.2rem rgba(33, 104, 1, 0.596);
+  }
+.btn-st1:focus, .btn-st1.focus {
+    box-shadow: 0 0 0 0.2rem rgba(33, 104, 1, 0.596);
+  }
+ .btn-st1:focus{
+    box-shadow: 0 0 0 0.2rem rgba(33, 104, 1, 0.596);
+	  color:white;
+  }
