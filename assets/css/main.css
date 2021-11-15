@@ -23,7 +23,7 @@ body{
 } 
 .navbar-first .navbar-nav>li.active a{
     color:white;
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 .navbar-first .navbar-nav>li>a:hover{
     color:white;
