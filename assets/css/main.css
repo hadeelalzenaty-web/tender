@@ -156,3 +156,8 @@ box-shadow: none !important; }
     box-shadow: 0 0 0 0.2rem rgba(33, 104, 1, 0.596);
 	  color:white;
   }
+  @media (max-width:588px){
+	.w-xs-100{
+width: 100%;
+    }
+}
