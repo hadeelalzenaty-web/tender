@@ -25,11 +25,11 @@
           </button>
           <div class="navbar-collapse collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item ">
-                <a class="" href="#">الجهات الطارحة للعطاء</a>
-              </li>
               <li class="nav-item active">
-                <a class=""  aria-current="page" href="#">الشركات</a>
+                <a class="" aria-current="page" href="#">الجهات الطارحة للعطاء</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="#">الشركات</a>
               </li>
               <li class="nav-item">
                 <a class="" href="#">الاشتراكات</a>
@@ -47,7 +47,7 @@
     <div class="content">
       <div class="d-flex flex-row align-items-center">
         <div class="d-flex flex-column flex-sm-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
-            <h4 class="site-color"> الشركات </h4>
+            <h4 class="site-color">الجهات الطارحة للعطاء </h4>
         </div>
     </div>
     <div class="filter-row d-flex flex-sm-row flex-column align-items-center mb-2">
@@ -64,65 +64,39 @@
         </div>
         <div class="ml-sm-auto d-flex flex-sm-row flex-column w-xs-100">
             <div class="btn btn-site pr-0 w-xs-100">
-              <button class="btn btn-st1 w-xs-100"><i class="bx bxs-user-badge"></i>إضافة شركة</button>
+              <button class="btn btn-st1 w-xs-100"><i class="bx bxs-user-badge"></i>إضافة جهة</button>
             </div>
         </div>
+      
       </div>
       <div class="filter-box  mb-2">
         <form>
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                    <label for="select1">اسم الشركة</label>
+                    <label for="select1">اسم الجهة</label>
                     <fieldset class="form-group">
                         <select class="form-control select2-icons" id="select1">
-                            <option value="co1">Jo</option>
-                            <option value="co2">Jo</option>
-                            <option value="co3">Jo</option>
+                            <option value="A">وزارة التجارة</option>
+                            <option value="R">وزارة التجارة</option>
+                            <option value="u">وزارة التجارة</option>
                         </select>
                     </fieldset>
                 </div>
                 <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                  <label for="select2"> اسم الشخص المسؤول </label>
+                  <label for="select2"> رقم هاتف الجهة</label>
                   <fieldset class="form-group">
                       <select class="form-control select2-icons" id="select2">
-                          <option value="name1">احمد تميمي</option>
-                          <option value="name2">احمد تميمي</option>
+                          <option value="asc">07852415454</option>
+                          <option value="des">07852415454</option>
                       </select>
                   </fieldset>
               </div>
               <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                <label for="select3">رقم هاتف الشخص المسؤول</label>
+                <label for="select2">  عنوان الجهة</label>
                 <fieldset class="form-group">
-                    <select class="form-control select2-icons" id="select3">
-                        <option value="num1">078435665</option>
-                        <option value="num2">078435665</option>
-                    </select>
-                </fieldset>
-            </div>
-            <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                <label for="select4">عنوان الشركة</label>
-                <fieldset class="form-group">
-                    <select class="form-control select2-icons" id="select4">
-                        <option value="address1">عمان/الأردن</option>
-                        <option value="address2">عمان/الأردن</option>
-                    </select>
-                </fieldset>
-            </div>
-            <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                <label for="select5">البريد الالكتروني للشركة</label>
-                <fieldset class="form-group">
-                    <select class="form-control select2-icons" id="select5">
-                        <option value="mail1">@</option>
-                        <option value="mail2">@</option>
-                    </select>
-                </fieldset>
-            </div>
-            <div class="col-lg-3 col-md-4 col-12 col-sm-6">
-                <label for="select6">مجالات الشركة</label>
-                <fieldset class="form-group">
-                    <select class="form-control select2-icons" id="select6">
-                        <option value="type1">SE</option>
-                        <option value="type2">SE</option>
+                    <select class="form-control select2-icons" id="select2">
+                        <option value="asc">Amman/Jordan</option>
+                        <option value="des">Amman/Jordan</option>
                     </select>
                 </fieldset>
             </div>
@@ -137,24 +111,18 @@
                     <table class="table table-striped table-bordered">
                         <thead>
                             <tr>
-                                <th class="dark-color">اسم الشركة</th>
-                                <th>اسم الشخص المسؤول</th>
-                                <th>رقم هاتف الشخص المسؤول</th>
-                                <th>عنوان الشركة</th>
-                                <th>البريد الالكتروني للشركة</th>
-                                <th>مجالات الشركة</th>
+                                <th class="dark-color">اسم الجهة</th>
+                                <th>رقم هاتف الجهة</th>
+                                <th>عنوان الجهة</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -164,14 +132,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -181,14 +146,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -198,14 +160,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -215,14 +174,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -232,14 +188,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -249,14 +202,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -266,14 +216,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -283,14 +230,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -300,14 +244,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -317,14 +258,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -334,14 +272,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -351,14 +286,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -368,14 +300,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -385,14 +314,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -402,14 +328,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -419,14 +342,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -436,14 +356,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -453,14 +370,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -470,14 +384,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -487,14 +398,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -504,14 +412,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -521,14 +426,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -538,14 +440,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -555,14 +454,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -572,14 +468,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -589,14 +482,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -606,14 +496,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -623,14 +510,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -640,14 +524,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>jo
+                                <td>وزارة التجارة
                                 </td>
-                                <td>أحمد تميمي</td>
-                                <td>078375365</td>
+                                <td>0785154145</td>
                                 <td>عمان/الأردن</td>
-                                <td>@</td>
-                                <td>SE</td>
-                                <td>
+                                                               <td>
                                     <div class="table-icon d-flex justify-content-center align-items-center">
                                         <a href=""  data-toggle="tooltip" data-original-title="Tooltip on bottom" data-placement="bottom" class="black-tooltip"  title="تعديل"><i
                                                 class="badge-circle badge-circle-light-secondary fas fa-pen"></i></a>
@@ -686,7 +567,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body text-center">
-            <h3>هل أنت متأكد من حذف الشركة</h3>
+            <h3>هل أنت متأكد من حذف الجهة</h3>
           </div>
           <div class="text-center">
             <button type="button" class="btn btn-st1 mt-3 mb-5" data-bs-toggle="modal" data-bs-target="#Modal3">نعم</button>
@@ -699,7 +580,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body text-center">
-            <h3>تم حذف الشركة بنجاح</h3>
+            <h3>تم حذف الجهة بنجاح</h3>
           </div>
           <div class="text-center">
             <button type="button" class="btn btn-st1 mt-3 mb-5" data-bs-dismiss="modal">موافق</button>

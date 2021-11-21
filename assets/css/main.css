@@ -101,6 +101,8 @@ body{
     position: relative;
     top: 3px;
 }
+.tooltip-arrow,
+.black-tooltip + .tooltip > .tooltip-inner {background-color: #191919;}
 
 .btn.filter-button:hover {
     background-color: white;

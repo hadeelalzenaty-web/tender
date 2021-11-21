@@ -1,0 +1,123 @@
+
+/* Pick A Date Css */
+/* ------------- */
+.picker__input.form-control {
+  background-color: #FFFFFF;
+}
+
+.picker {
+  z-index: 10;
+}
+
+.picker.picker--opened:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 1.5rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  display: block;
+  background: #FFFFFF;
+  transform: rotate(45deg) translate(-7px);
+  z-index: 10;
+  box-sizing: border-box;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.picker .picker__holder {
+  margin-top: 0.6rem;
+  border-radius: 0.267rem;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
+  line-height: 0.9;
+}
+
+.picker .picker__day--infocus:hover,
+.picker .picker__day--outfocus:hover,
+.picker .picker__day--highlighted,
+.picker .picker__day--selected,
+.picker .picker__day--today {
+  border-radius: 4px;
+}
+
+/*.picker .picker__day--highlighted,
+.picker .picker__day--highlighted:hover,
+.picker .picker--focused .picker__day--highlighted {
+  background-color: #5A8DEE;
+}*/
+
+.picker .picker__day--today:before,
+.picker .picker__button--today:before {
+  border-top-color: #5A8DEE;
+}
+
+.picker .picker__nav--prev:before,
+.picker .picker__nav--next:before {
+  font-family: 'FontAwesome';
+}
+
+.picker .picker__nav--next:before {
+  content: "\f061";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color:black;
+}
+
+.picker .picker__nav--prev:before {
+  content: "\f060";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color:black;
+}
+
+.picker .picker__button--close:before {
+  content: "\f00d";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
+  color:red;
+}
+
+.inlineDatePicker {
+  display: none;
+}
+
+#inlineDatePicker-container .picker {
+  height: 370px;
+  width: 280px;
+  position: relative;
+  z-index: 9;
+}
+
+#inlineDatePicker-container .picker.picker--opened:before {
+  display: none;
+}
+
+#inlineDatePicker-container .picker__holder {
+  max-height: 480px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  display: block;
+}
+
+/* Daterange Css */
+/* ------------- */
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+  background-color: #5A8DEE;
+}
+
+.daterangepicker td.in-range {
+  background-color: rgba(90, 141, 238, 0.2);
+  color: #000;
+}
+
+.daterangepicker .ranges li.active {
+  background-color: #5A8DEE;
+}
+
+.daterangepicker-container .daterangepicker {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  float: left;
+}

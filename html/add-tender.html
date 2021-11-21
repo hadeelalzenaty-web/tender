@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>عطاءات</title>
+     <!-- Bootstrap -->
+     <link href="../assets/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet">
+     <link href="../assets/bootstrap/css/bootstrap.grid.rtl.css" rel="stylesheet">
+     <link href="../assets/bootstrap/css/bootstrap-utilities.rtl.css" rel="stylesheet">
+     
+         <!-- Main -->
+    <link href="../assets/css/main.css" rel="stylesheet">    
+    <link href="../assets/css/d-rtl.css" rel="stylesheet">  
+    <link href="../assets/css/components.css" rel="stylesheet">  
+
+        <!-- BEGIN: DateTimePicker CSS-->
+        <link rel="stylesheet" type="text/css" href="../assets/css/pickadate/pickadate.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/daterange/daterangepicker.css">
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-light  navbar-first">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">عطاءات</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="" aria-current="page" href="#">الجهات الطارحة للعطاء</a>
+              </li>
+              <li class="nav-item">
+                <a class=""  href="#">الشركات</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="#">الاشتراكات</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="#">إرشيف المشتركين</a>
+              </li>
+              <li class="nav-item active">
+                <a class="" aria-current="page" href="#">العطاءات</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="content">
+      <div class="d-flex flex-row align-items-center">
+        <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
+            <h4 class="site-color">إضافة عطاء </h4>
+        </div>
+    </div>
+        <div class="card mb-0">
+            <div class="card-content">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="name1"> اسم الجهة <span class="red-color">*</span></label>
+                                <input type="text" class="form-control is-invalid form-control" id="name1"
+                                    placeholder="اسم الجهة">
+                                    <div class="invalid-feedback">يرجى تعبئة الحقل</div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="num1">رقم العطاء<span class="red-color">*</span></label>
+                                <input type="text" class="form-control" id="num1"
+                                    placeholder="ادخل رقم العطاء">
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="lselect">------</label>
+                                <select class="select2-icons form-control" id="lselect">
+                                    <option>-----</option>
+                                    <option>-----</option>
+                                    <option>-----</option>
+                                </select>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="cost1">سعر النسخة <span class="red-color">*</span></label>
+                                <input type="text" class="form-control" id="cost1"
+                                    placeholder="ادخل سعر النسخة">
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="subject1">موضوع العطاء </label>
+                                <input type="text" class="form-control" id="subject1"
+                                    placeholder="ادخل موضوع العطاء">
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <label for="start-date">تاريخ آخر موعد لشراء النسخة</label>
+                            <fieldset class="form-group position-relative has-icon-left">
+                                <input type="text" class="form-control pickadate" placeholder="اختر تاريخ" id="start-date">
+                                <div class="form-control-position">
+                                    <i class='bx bx-calendar'></i>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <label for="start-date">تاريخ آخر موعد لتسليم العروض</label>
+                            <fieldset class="form-group position-relative has-icon-left">
+                                <input type="text" class="form-control pickadate" placeholder="اختر تاريخ" id="start-date">
+                                <div class="form-control-position">
+                                    <i class='bx bx-calendar'></i>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <label for="start-date">تاريخ زيارة الموقع</label>
+                            <fieldset class="form-group position-relative has-icon-left">
+                                <input type="text" class="form-control pickadate" placeholder="اختر تاريخ" id="start-date">
+                                <div class="form-control-position">
+                                    <i class='bx bx-calendar'></i>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="subject2">الكفالة</label>
+                                <input type="text" class="form-control" id="subject2"
+                                    placeholder="الكفالة">
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <label for="start-date">تاريخ الجريدة</label>
+                            <fieldset class="form-group position-relative has-icon-left">
+                                <input type="text" class="form-control pickadate" placeholder="اختر تاريخ" id="start-date">
+                                <div class="form-control-position">
+                                    <i class='bx bx-calendar'></i>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="lselect">المجالات التي سيتم تصنيف العطاء عليها </label>
+                                <select class="select2-icons form-control" id="lselect">
+                                    <option>-----</option>
+                                    <option>-----</option>
+                                    <option>-----</option>
+                                </select>
+                            </fieldset>
+                        </div>
+                        
+                        
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 d-flex flex-sm-row flex-column justify-content-end my-3 p-0">
+            <button type="submit" class="btn btn-st1 glow mb-1 mb-sm-0 mr-0 mr-sm-1">حفظ</button>
+            <button type="reset" class="btn btn-secondary">إلغاء</button>
+        </div>
+</div>
+
+      <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+   <!-- Bootstrap Core JavaScript -->
+   <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+
+       <!-- BEGIN:  JS pickadate-->
+       <script src="../assets/js/pickers/pickadate/picker.js"></script>
+       <script src="../assets/js/pickers/pickadate/picker.date.js"></script>
+       <script src="../assets/js/pickers/pickadate/picker.time.js"></script>
+       <script src="../assets/js/pickers/pickadate/legacy.js"></script>
+       <script src="../assets/js/pickers/daterange/moment.min.js"></script>
+       <script src="../assets/js/pickers/daterange/daterangepicker.js"></script>
+       <!-- END:  JS pickadate-->
+           <!--BEGIN: Page JS pickadate--->
+           <script src="../assets/js/pickers/app-invoice.js"></script>
+           <!-- END: Page JS pickadate--->
+</body>
