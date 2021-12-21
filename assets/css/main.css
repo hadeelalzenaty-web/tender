@@ -113,6 +113,9 @@ body{
 .table-icon a:not(:hover){
     color: #5A8DEE!important;
 }
+textarea.form-control {
+    resize: none;
+}
 
 
 
@@ -158,6 +161,87 @@ box-shadow: none !important; }
     box-shadow: 0 0 0 0.2rem rgba(33, 104, 1, 0.596);
 	  color:white;
   }
+  .img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    width:200px;
+    height:200px;
+}
+.img-thumbnail2 {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    width:150px;
+    height:150px;
+    margin-left:0.25rem;
+}
+.img{
+    padding: 0 2rem 2rem 2rem;
+}
+.img-show{
+    max-height: calc(100vh - 27rem);
+    overflow: hidden;
+}
+.img-show2{
+    max-height: calc(100vh - 31.5rem);
+    overflow: hidden;
+}
+.show-more{
+    float:left;
+}
+
+.but-fileupload.input-group{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: auto;
+}
+
+
+    .but-fileupload.input-group .file-upload label {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .but-fileupload.input-group .file-upload label > span {
+        -ms-flex: 1 1 auto !important;
+        flex: 1 1 auto !important;
+        width: 1% !important;
+        margin-bottom: 0 !important;
+
+        -webkit-font-smoothing: antialiased;
+        white-space: pre-wrap;
+        text-rendering: optimizeLegibility;
+        word-break: normal;
+    }
+
+
+        .ie10 .but-fileupload.input-group .file-upload label > span {
+            max-width: 300px !important;
+            display: block !important;
+        }
+        .file-upload__input {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            font-size: 1;
+            width: 0;
+            height: 100%;
+            opacity: 0;
+        }
   @media (max-width:588px){
 	.w-xs-100{
 width: 100%;

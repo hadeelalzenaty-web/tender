@@ -52,3 +52,9 @@ html body {
   height : 36px;
   width : 36px;
 }
+.date-m {
+  margin-bottom: 2rem;
+}
+.date-m2 {
+  margin-top: 2rem;
+}
