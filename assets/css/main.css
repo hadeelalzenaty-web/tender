@@ -166,8 +166,9 @@ box-shadow: none !important; }
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
-    width:200px;
-    height:200px;
+    width:180px;
+    height:180px;
+    margin-bottom:1rem;
 }
 .img-thumbnail2 {
     padding: 0.25rem;
@@ -242,8 +243,16 @@ box-shadow: none !important; }
             height: 100%;
             opacity: 0;
         }
+ @media (max-width: 767px) {
+    .img-thumbnail {
+        width:140px;
+        height:140px;
+    }
+        }
   @media (max-width:588px){
 	.w-xs-100{
 width: 100%;
     }
+    
 }
+
