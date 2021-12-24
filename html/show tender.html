@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>عطاءات</title>
+       <!-- Bootstrap -->
+       <link href="../assets/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet">
+       <link href="../assets/bootstrap/css/bootstrap.grid.rtl.css" rel="stylesheet">
+       <link href="../assets/bootstrap/css/bootstrap-utilities.rtl.css" rel="stylesheet">
+           <!-- Main -->
+      <link href="../assets/css/main.css" rel="stylesheet">
+      <link href="../assets/css/d-rtl.css" rel="stylesheet">
+      <link href="../assets/css/components.css" rel="stylesheet">  
+  
+      <!-- BEGIN: DateTimePicker CSS-->
+      <link rel="stylesheet" type="text/css" href="../assets/css/pickadate/pickadate.css">
+      <link rel="stylesheet" type="text/css" href="../assets/css/daterange/daterangepicker.css">
+</head>
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-light  navbar-first">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">عطاءات</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="" aria-current="page" href="tender-offering.html">الجهات الطارحة للعطاء</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="companies.html">الشركات</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="subscribers.html">الاشتراكات</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="subscriber-archive.html">إرشيف المشتركين</a>
+              </li>
+              <li class="nav-item">
+                <a class="" href="tender.html">العطاءات</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="content">
+      <div class="d-flex flex-row align-items-center">
+        <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
+            <h4 class="site-color">تعديل العطاءات </h4>
+        </div>
+    </div>
+        <div class="card mb-0">
+            <div class="card-content">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="name1"> اسم العطاء <span class="red-color">*</span></label>
+                                <div class="form-control-static col-sm-12">
+                                    <label>IT</label>
+                                    </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="num1">اسم الجهة<span class="red-color">*</span></label>
+                                <div class="form-control-static col-sm-12">
+                                    <label>IT</label>
+                                    </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="num1">رقم العطاء<span class="red-color">*</span></label>
+                                <div class="form-control-static col-sm-12">
+                                    <label>IT</label>
+                                    </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="num1">....<span class="red-color">*</span></label>
+                                <div class="form-control-static col-sm-12">
+                                    <label>IT</label>
+                                    </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 date-m">
+                            <fieldset class="form-group">
+                                <label for="date1">تاريخ زيارة الموقع مع الوقت<span class="red-color">*</span></label>
+                                <div class="form-control-static col-sm-12">
+                                    <label>12pm:12/2/2029</label>
+                                    </div>
+                            </fieldset>
+                        </div> 
+                        <div class="col-lg-4 col-md-6 col-12 date-m">
+                            <fieldset class="form-group">
+                                <label for="date2">تاريخ وساعة اخر موعد لشراء النسخ<span class="red-color">*</span></label>
+                                <div class="form-control-static col-sm-12">
+                                    <label>12pm:12/2/2029</label>
+                                    </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 date-m">
+                            <fieldset class="form-group">
+                                <label for="date3">تاريخ وساعة أخر موعد لتسليم العروض <span class="red-color">*</span></label>
+                                <div class="form-control-static col-sm-12">
+                                    <label>12pm:12/2/2029</label>
+                                    </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="num1">الكفالة<span class="red-color">*</span></label>
+                                <div class="form-control-static col-sm-12">
+                                    <label>2500$</label>
+                                    </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <fieldset class="form-group">
+                                <label for="num1">المجالات التي سيتم تصنيف العطاء عليها <span class="red-color">*</span></label>
+                                <div class="form-control-static col-sm-12">
+                                    select text
+                                    </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-12">
+                            <fieldset class="form-group">
+                            <label for="Textarea1" class="label">موضوع العطاء</label>
+                            <label>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit et dui ac pretium. Suspendisse potenti. Curabitur nulla dolor, dictum non lobortis id, bibendum vitae velit. Fusce laoreet quam ac elit dictum pulvinar. In hac habitasse platea dictumst. Cras aliquet ex mauris, aliquet efficitur urna bibendum et. Praesent faucibus libero nec semper ultrices. Aenean aliquam augue vel commodo posuere.
+
+                                Vivamus urna felis, aliquam ac ante a, consequat mollis felis. Nam a dapibus elit, sit amet viverra massa. Curabitur vel eros tincidunt, blandit nunc quis, fermentum erat. Nam porta at nulla sit amet placerat. Phasellus in rhoncus metus. Aliquam erat volutpat. Aliquam quis ipsum vitae odio cursus euismod. Integer a ullamcorper elit, sit amet ullamcorper justo. Phasellus sed lectus sed felis pretium posuere ac id felis.</label>
+                        </fieldset>
+                          </div>
+                </div>
+            <div class="img-show">
+                <div class="d-flex flex-wrap flex-row">
+                <div id="upload-attach" class="img">
+                    <img src="../images/images.png" alt="" class="img-thumbnail">
+                </div>
+                <div id="upload-attach2" class="img">
+                    <img src="../images/images.png" alt="" class="img-thumbnail" width=200 height=200>
+                </div>
+                <div id="upload-attach3"class="img">
+                    <img src="../images/images.png" alt="" class="img-thumbnail" width=200 height=200>
+                </div>
+                <div id="upload-attach3"class="img">
+                    <img src="../images/images.png" alt="" class="img-thumbnail" width=200 height=200>
+                </div>
+                <div id="upload-attach4"class="img">
+                    <img src="../images/images.png" alt="" class="img-thumbnail" width=200 height=200>
+                </div>
+                <div id="upload-attach5"class="img">
+                    <img src="../images/images.png" alt="" class="img-thumbnail" width=200 height=200>
+                </div>
+                <div id="upload-attach6"class="img">
+                    <img src="../images/images.png" alt="" class="img-thumbnail" width=200 height=200>
+                </div>
+                <div id="upload-attach7"class="img">
+                    <img src="../images/images.png" alt="" class="img-thumbnail" width=200 height=200>
+                </div>
+                <div id="upload-attach8"class="img">
+                    <img src="../images/images.png" alt="" class="img-thumbnail" width=200 height=200>
+                </div>
+              </div>
+            </div>
+            <label  class="show-more show">إظهار المزيد</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 d-flex flex-sm-row flex-column justify-content-end my-3 p-0">
+            <button type="submit" class="btn btn-st1 glow mb-1 mb-sm-0 mr-0 mr-sm-1">حفظ</button>
+            <button type="reset" class="btn btn-secondary">إلغاء</button>
+        </div>
+</div>
+
+      <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+   <!-- Bootstrap Core JavaScript -->
+   <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+   
+          <!-- BEGIN:  JS pickadate-->
+          <script src="../assets/js/pickers/pickadate/picker.js"></script>
+          <script src="../assets/js/pickers/pickadate/picker.date.js"></script>
+          <script src="../assets/js/pickers/pickadate/picker.time.js"></script>
+          <script src="../assets/js/pickers/pickadate/legacy.js"></script>
+          <script src="../assets/js/pickers/daterange/moment.min.js"></script>
+          <script src="../assets/js/pickers/daterange/daterangepicker.js"></script>
+          <!-- END:  JS pickadate-->
+              <!--BEGIN: Page JS pickadate--->
+              <script src="../assets/js/pickers/app-invoice.js"></script>
+              <!-- END: Page JS pickadate--->
+
+              <!--JQuery code-->
+              <script>
+                $(document).ready(function () {
+                   /* $('#upload').change(function (e) {
+                        var fileName = e.target.files[0].name;
+                        $("#upload-attach img").attr("src","../images/"+fileName);
+                    })
+                */
+               $(".show-more").click(function(){
+                   if($(this).hasClass("show")){  
+                    $(".img-show").css("max-height","100%");
+                    $(".show-more").text("إخفاء ");
+                    $(this).removeClass("show")
+                   }
+                   else{
+                    $(".img-show").css("max-height","calc(100vh - 27rem)");  
+                    $(this).addClass("show");
+                    $(".show-more").text("إظهار المزيد");
+                   }
+
+               });
+            });
+
+                    </script>
+</body>
